@@ -6,7 +6,7 @@ st.title("My Chatbot")
 
 USER_AVATAR = "👤"
 BOT_AVATAR = "🤖"
-client = OpenAI(api_key="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")  # Tạo một client từ API
+client = OpenAI(api_key=".....................")  # Tạo một client từ API
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-3.5-turbo"
